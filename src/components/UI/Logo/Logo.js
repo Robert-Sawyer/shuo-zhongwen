@@ -6,7 +6,7 @@ const Logo = props => {
     return (
         <div className={classes.LogoContainer}>
             <a>
-                <strong>Shuo Zhongwen</strong>
+                <strong>Teacher Wang</strong>
             </a>
         </div>
     )

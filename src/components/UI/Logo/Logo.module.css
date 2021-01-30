@@ -1,6 +1,8 @@
 .LogoContainer {
-  width: 50px;
-  font-size: 1.2rem;
+  width: 240px;
+  font-size: 2.8rem;
+  font-weight: bold;
+  font-family: ChinaWest, sans-serif;
 }
 
 /*# sourceMappingURL=Logo.module.css.map */
