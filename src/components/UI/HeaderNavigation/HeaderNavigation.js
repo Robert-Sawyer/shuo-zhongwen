@@ -11,8 +11,8 @@ const HeaderNavigation = props => {
                 <li className={classes.NavMenuItem}>O mnie</li>
                 <li className={classes.NavMenuItem}>Blog</li>
                 <li className={classes.NavMenuItem}>Kontakt</li>
-                <li className={classes.NavMenuItem}>Logowanie</li>
-                <li className={classes.NavMenuItem}>Rejestracja</li>
+                <li className={classes.LogIn}>Logowanie</li>
+                <li className={classes.SignIn}>Rejestracja</li>
             </ul>
         </nav>
     )

@@ -2,7 +2,36 @@
   list-style: none
   position: relative
 
-.NavMenuItem
+%listItem
   display: inline-block
-  padding: 0 0.9em
   font-size: 1.1rem
+
+.NavMenuItem
+  @extend %listItem
+  padding: 0 0.9em
+  cursor: pointer
+  &:hover
+    color: #b77a24
+    //font-weight: 600
+
+.LogIn
+  @extend %listItem
+  background-color: #cc984f8c
+  border-radius: 10px
+  padding: 10px 15px
+  margin-left: 7px
+  margin-right: 7px
+  font-weight: 600
+  &:hover
+    background-color: #cc984f
+
+.SignIn
+  @extend %listItem
+  border-radius: 10px
+  padding: 10px 15px
+  background-color: #b77a24
+  margin-left: 7px
+  font-weight: 600
+  color: #ffffff
+  &:hover
+    background-color: #7a4e0f
