@@ -10,7 +10,7 @@ const TestimonialsSection = props => {
         <div className={classes.Section}>
             <div className={classes.Container}>
                 <div>
-                    <h2 className={classes.Title}>Opinie</h2>
+                    <h2 className={classes.Title}>Opinie kursantów</h2>
                 </div>
                 <div className={classes.Row}>
                     <TestimonialItem title='Świetny kurs' content={testimonialContent} author='Jan Kowalski'/>
