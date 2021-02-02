@@ -3,6 +3,7 @@ import './App.css';
 import Layout from "./components/UI/Layout/Layout";
 import Banner from "./components/UI/Banner/Banner";
 import CoursesBar from "./components/Courses/CoursesBar";
+import TestimonialsSection from "./components/Testimonials/TestimonialsSection";
 
 const App = props => {
 
@@ -11,6 +12,7 @@ const App = props => {
             <Layout>
                 <Banner/>
                 <CoursesBar/>
+                <TestimonialsSection/>
             </Layout>
         </div>
     );
