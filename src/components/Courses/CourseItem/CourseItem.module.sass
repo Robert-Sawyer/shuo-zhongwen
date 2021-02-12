@@ -1,12 +1,24 @@
-.Container
+%commonDesktopSizes
   width: 170px
   height: 90px
+
+.Container
+  @extend %commonDesktopSizes
   margin: 0 0.75rem
+  @media (max-width: 1150px)
+    margin: 15px 0
+    width: 240px
+    height: 130px
 
 .Link
-  width: 170px
-  height: 90px
+  position: relative
+  @extend %commonDesktopSizes
+  @media (max-width: 1150px)
+    width: 240px
+    height: 130px
 
 .Image
-  width: 170px
-  height: 90px
+  @extend %commonDesktopSizes
+  @media (max-width: 1150px)
+    width: 240px
+    height: 130px
