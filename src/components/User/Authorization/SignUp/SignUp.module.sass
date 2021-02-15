@@ -1,0 +1,109 @@
+.Container
+  margin-top: 85px
+  position: relative
+  width: 100%
+  height: 100vh
+  display: flex
+
+.ImgBox
+  position: relative
+  width: 50%
+  height: 100vh
+  &:before
+    content: ''
+    position: absolute
+    width: 100%
+    height: 100%
+    top: 0
+    left: 0
+    background: linear-gradient(225deg, #b77a24, #cc984f63)
+    z-index: 1
+    mix-blend-mode: screen
+  & img
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    object-fit: cover
+  @media (max-width: 768px)
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+
+.ContentBox
+  display: flex
+  width: 50%
+  height: 100%
+  justify-content: center
+  align-items: center
+  @media (max-width: 768px)
+    display: flex
+    justify-content: center
+    align-items: center
+    width: 100%
+    height: 100%
+    z-index: 1
+
+.FormBox
+  width: 50%
+  @media (max-width: 768px)
+    width: 100%
+    padding: 40px
+    margin: 50px
+    background: rgba(255, 255, 255, 0.9)
+
+  & h2
+    color: #607d8b
+    font-weight: 600
+    text-transform: uppercase
+    margin-bottom: 20px
+    font-size: 1.5em
+    display: inline-block
+    border-bottom: 4px solid #b77a24
+    letter-spacing: 1px
+
+.InputBox
+  margin-bottom: 20px
+  & p
+    color: #607d8b
+    & a
+      color: #b77a24
+  & span
+    display: inline-block
+    font-size: 16px
+    margin-bottom: 5px
+    font-weight: 300
+    color: #607d8b
+  & input
+    width: 100%
+    padding: 10px 20px
+    outline: none
+    font-weight: 400
+    font-size: 16px
+    letter-spacing: 1px
+    border: 1px solid #607d8b
+    color: #607d8b
+    background: transparent
+    border-radius: 30px
+    &[type='submit']
+      background: #b77a24
+      color: #ffffff
+      outline: none
+      border: none
+      font-weight: 500
+      cursor: pointer
+      &:hover
+        background: #7a4e0f
+
+.Remember
+  font-weight: 400
+  font-size: 14px
+  color: #607d8b
+  margin-bottom: 10px
+  & input
+    margin-right: 3px
+
+

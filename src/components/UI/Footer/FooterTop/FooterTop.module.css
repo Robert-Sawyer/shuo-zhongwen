@@ -1,0 +1,28 @@
+.Row {
+  display: flex;
+  padding: 0 150px;
+}
+
+.FirstColumnContainer {
+  flex: 40%;
+  max-width: 40%;
+  padding: 0 15px;
+}
+
+.FirstColumnContent {
+  text-align: left;
+  padding: 15px 0;
+}
+
+.SecondColumnContainer {
+  flex: 50%;
+  max-width: 50%;
+  margin-left: auto;
+}
+
+.SecondColumnRow {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*# sourceMappingURL=FooterTop.module.css.map */

@@ -1,0 +1,33 @@
+.ItemContainer {
+  padding: 0 15px;
+}
+
+.Testimonial {
+  border-radius: 7px;
+  background-color: #ffffff;
+  padding: 30px;
+  border-bottom: 4px solid #b77a24;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+.Title {
+  color: #b77a24;
+  font-size: 1.4em;
+}
+
+.ContentContainer {
+  margin: 1em 10px;
+}
+
+.Content {
+  text-align: justify;
+}
+
+.Author {
+  color: #a09f9f;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 15px;
+}
+
+/*# sourceMappingURL=TestimonialItem.module.css.map */

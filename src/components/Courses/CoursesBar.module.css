@@ -1,0 +1,33 @@
+.CoursesBar {
+  padding: 10px 0 30px;
+}
+
+.Title {
+  color: #7a4e0f;
+  font-family: Calibri, sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+  font-size: 2.3em;
+  text-transform: uppercase;
+}
+
+.Subtitle {
+  color: #b77a24;
+  margin: 12px 0;
+  font-size: 1.5rem;
+}
+
+.Row {
+  display: flex;
+  padding: 25px;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 1150px) {
+  .Row {
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=CoursesBar.module.css.map */
