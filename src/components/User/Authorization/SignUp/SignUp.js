@@ -11,24 +11,29 @@ const SignUp = props => {
             </div>
             <div className={classes.ContentBox}>
                 <div className={classes.FormBox}>
-                    <h2>Login</h2>
+                    <h2>Rejestracja</h2>
                     <form>
                         <div className={classes.InputBox}>
-                            <span>Username</span>
+                            <span>Login</span>
                             <input type="text" name=""/>
                         </div>
                         <div className={classes.InputBox}>
-                            <span>Password</span>
+                            <span>E-Mail</span>
+                            <input type="text" name=""/>
+                        </div>
+                        <div className={classes.InputBox}>
+                            <span>Hasło</span>
                             <input type="password" name=""/>
                         </div>
-                        <div className={classes.Remember}>
-                            <label><input type="checkbox" name=""/>Remember me</label>
+                        <div className={classes.InputBox}>
+                            <span>Powtórz hasło</span>
+                            <input type="password" name=""/>
                         </div>
                         <div className={classes.InputBox}>
-                            <input type="submit" value="Sign In" name=""/>
+                            <input type="submit" value="Zarejestruj" name=""/>
                         </div>
                         <div className={classes.InputBox}>
-                            <p>Don't have a account? <a href="#">Sing Up</a></p>
+                            <p>Masz już konto? <a href="/login">Zaloguj się</a></p>
                         </div>
                     </form>
                 </div>

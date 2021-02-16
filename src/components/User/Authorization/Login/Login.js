@@ -28,7 +28,7 @@ const Login = props => {
                             <input type="submit" value="Zaloguj" name=""/>
                         </div>
                         <div className={classes.InputBox}>
-                            <p>Nie masz konta? <a href="#">Zarejestruj się</a></p>
+                            <p>Nie masz konta? <a href="/signup">Zarejestruj się</a></p>
                         </div>
                     </form>
                 </div>
