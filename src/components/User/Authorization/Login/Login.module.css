@@ -1,0 +1,140 @@
+.Container {
+  margin-top: 85px;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  border-bottom: 4px solid #b77a24;
+}
+
+.ImgBox {
+  position: relative;
+  width: 50%;
+  height: 100vh;
+}
+.ImgBox:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: linear-gradient(225deg, #b77a24, #cc984f63);
+  z-index: 1;
+  mix-blend-mode: screen;
+}
+.ImgBox img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+@media (max-width: 768px) {
+  .ImgBox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.ContentBox {
+  display: flex;
+  width: 50%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 768px) {
+  .ContentBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+}
+
+.FormBox {
+  width: 50%;
+  text-align: left;
+}
+.FormBox h2 {
+  color: #607d8b;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-size: 1.5em;
+  display: inline-block;
+  border-bottom: 4px solid #b77a24;
+  letter-spacing: 1px;
+}
+@media (max-width: 768px) {
+  .FormBox {
+    width: 100%;
+    padding: 40px;
+    margin: 50px;
+    background: rgba(255, 255, 255, 0.9);
+  }
+}
+
+.InputBox {
+  margin-bottom: 20px;
+}
+.InputBox p {
+  color: #607d8b;
+}
+.InputBox p a {
+  color: #b77a24;
+}
+.InputBox span {
+  display: inline-block;
+  font-size: 16px;
+  margin-bottom: 5px;
+  font-weight: 300;
+  color: #607d8b;
+}
+.InputBox input {
+  width: 100%;
+  padding: 10px 20px;
+  outline: none;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 1px;
+  border: 1px solid #607d8b;
+  color: #607d8b;
+  background: transparent;
+  border-radius: 30px;
+}
+.InputBox input[type=text], .InputBox input[type=password] {
+  width: 83%;
+}
+.InputBox input[type=submit] {
+  width: fit-content;
+  background: #b77a24;
+  color: #ffffff;
+  outline: none;
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 10px 40px;
+}
+.InputBox input[type=submit]:hover {
+  background: #7a4e0f;
+}
+
+.Remember {
+  font-weight: 400;
+  font-size: 14px;
+  color: #607d8b;
+  margin-bottom: 10px;
+}
+.Remember input {
+  margin-right: 3px;
+}
+
+/*# sourceMappingURL=Login.module.css.map */
