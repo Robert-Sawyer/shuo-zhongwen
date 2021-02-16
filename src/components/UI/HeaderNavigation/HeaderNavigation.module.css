@@ -13,7 +13,11 @@
 .NavMenuItem {
   padding: 0 0.9em;
 }
-.NavMenuItem:hover {
+.NavMenuItem a {
+  text-decoration: none;
+  color: #000;
+}
+.NavMenuItem a:hover {
   color: #b77a24;
 }
 
@@ -39,6 +43,10 @@
   background-color: #b77a24;
   margin-left: 7px;
   font-weight: 600;
+  color: #ffffff;
+}
+.SignIn a {
+  text-decoration: none;
   color: #ffffff;
 }
 .SignIn:hover {

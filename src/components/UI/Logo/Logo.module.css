@@ -5,5 +5,9 @@
   font-family: ChinaWest, sans-serif;
   color: #7a4e0f;
 }
+.LogoContainer a {
+  text-decoration: none;
+  color: #7a4e0f;
+}
 
 /*# sourceMappingURL=Logo.module.css.map */

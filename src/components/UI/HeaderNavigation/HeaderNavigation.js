@@ -6,13 +6,13 @@ const HeaderNavigation = props => {
     return (
         <nav className={classes.NavMenuContainer}>
             <ul className={classes.NavMenu}>
-                <li className={classes.NavMenuItem}>Start</li>
-                <li className={classes.NavMenuItem}>Kursy</li>
-                <li className={classes.NavMenuItem}>O mnie</li>
-                <li className={classes.NavMenuItem}>Blog</li>
-                <li className={classes.NavMenuItem}>Kontakt</li>
+                <li className={classes.NavMenuItem}><a href='/'>Start</a></li>
+                <li className={classes.NavMenuItem}><a href='#'>Kursy</a></li>
+                <li className={classes.NavMenuItem}><a href='#'>O mnie</a></li>
+                <li className={classes.NavMenuItem}><a href='#'>Blog</a></li>
+                <li className={classes.NavMenuItem}><a href='#'>Kontakt</a></li>
                 <li className={classes.LogIn}><a href="/login">Logowanie</a></li>
-                <li className={classes.SignIn}>Rejestracja</li>
+                <li className={classes.SignIn}><a href="/signup">Rejestracja</a></li>
             </ul>
         </nav>
     )

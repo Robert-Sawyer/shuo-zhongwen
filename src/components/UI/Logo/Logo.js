@@ -5,7 +5,7 @@ const Logo = props => {
 
     return (
         <div className={classes.LogoContainer}>
-            <a>
+            <a href='/'>
                 <strong>Teacher Wang</strong>
             </a>
         </div>
