@@ -1,0 +1,25 @@
+.DrawerToggle {
+  width: 40px;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+@media (min-width: 985px) {
+  .DrawerToggle {
+    display: none;
+  }
+}
+
+.DrawerToggle div {
+  width: 90%;
+  height: 3px;
+  background-color: #7a4e0f;
+  margin: 3px 0;
+}
+
+/*# sourceMappingURL=HamburgerButton.module.css.map */
