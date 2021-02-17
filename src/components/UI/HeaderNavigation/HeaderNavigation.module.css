@@ -13,6 +13,14 @@
   list-style: none;
   position: relative;
   padding-left: 0;
+  display: flex;
+  flex-flow: column;
+}
+@media (min-width: 1000px) {
+  .NavMenu {
+    flex-flow: row;
+    align-items: center;
+  }
 }
 
 .NavMenuItem a {

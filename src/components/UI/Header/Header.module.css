@@ -15,11 +15,22 @@
   width: 100%;
   margin: 0 110px;
 }
+@media (max-width: 1140px) {
+  .Container {
+    margin: 0 50px;
+  }
+}
 
 .Row {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+@media (max-width: 1001px) {
+  .ColRight {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=Header.module.css.map */
