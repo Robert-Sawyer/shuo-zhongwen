@@ -8,6 +8,7 @@ const Banner = props => {
             <div className={classes.FirstColumn}>
                 <div className={classes.TitleContainer}>
                     <h1 className={classes.Title}>Teacher Wang</h1>
+                    <h1 className={classes.TitleChinese}>王老师</h1>
                     <p className={classes.Paragraph}>
                         Rozwijaj umiejętności dzięki kursom, certyfikatom i stopniom online ze światowej klasy
                         uniwersytetów i firm

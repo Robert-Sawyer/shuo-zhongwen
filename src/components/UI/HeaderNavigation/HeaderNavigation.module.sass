@@ -2,6 +2,7 @@
   display: inline-block
   font-size: 1.1rem
   cursor: pointer
+  width: fit-content
 
 %linkStyle
   text-decoration: none
@@ -13,12 +14,15 @@
   padding-left: 0
   display: flex
   flex-flow: column
+  align-items: center
   @media (min-width: 1000px)
     flex-flow: row
-    align-items: center
 
 .NavMenuItem
   @extend %listItem
+  @media (max-width: 1000px)
+    font-size: 1.3rem
+    padding: 0.5rem
   & a
     @extend %linkStyle
     color: #000
@@ -33,6 +37,9 @@
   margin-left: 7px
   margin-right: 7px
   font-weight: 600
+  @media (max-width: 1000px)
+    margin: 0.5rem 0
+    font-size: 1.3rem
   & a
     @extend %linkStyle
     color: #000
@@ -47,6 +54,9 @@
   margin-left: 7px
   font-weight: 600
   color: #ffffff
+  @media (max-width: 1000px)
+    font-size: 1.3rem
+    margin: 0.2rem 0
   & a
     @extend %linkStyle
     color: #ffffff

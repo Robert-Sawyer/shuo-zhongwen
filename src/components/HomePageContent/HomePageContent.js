@@ -2,16 +2,16 @@ import React from 'react'
 import Banner from "../UI/Banner/Banner";
 import CoursesBar from "../Courses/CoursesBar";
 import TestimonialsSection from "../Testimonials/TestimonialsSection";
-import Layout from "../UI/Layout/Layout";
+import Aux from "../../hoc/AuxComponent/AuxComponent";
 
 const HomePageContent = props => {
 
     return (
-        <div>
+        <Aux>
             <Banner/>
             <CoursesBar/>
             <TestimonialsSection/>
-        </div>
+        </Aux>
     )
 }
 

@@ -22,12 +22,21 @@
   align-items: center;
 }
 
-.Title {
+.TitleChinese, .Title {
   color: #ffffff;
   font-family: ChinaWest, sans-serif;
-  font-size: 5rem;
   font-weight: 300;
   margin: 15px 0;
+}
+
+.Title {
+  font-size: 5rem;
+  margin-bottom: 5px;
+}
+
+.TitleChinese {
+  font-size: 3rem;
+  margin-top: 5px;
 }
 
 .Paragraph {

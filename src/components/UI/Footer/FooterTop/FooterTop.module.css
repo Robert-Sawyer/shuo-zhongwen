@@ -13,6 +13,13 @@
   text-align: left;
   padding: 15px 0;
 }
+.FirstColumnContent p:nth-child(1) {
+  margin-bottom: 5px;
+}
+.FirstColumnContent p:nth-child(2) {
+  margin-top: 5px;
+  text-align: right;
+}
 
 .SecondColumnContainer {
   flex: 50%;

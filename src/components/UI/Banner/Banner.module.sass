@@ -19,12 +19,21 @@
   justify-content: center
   align-items: center
 
-.Title
+%titleStyle
   color: #ffffff
   font-family: ChinaWest, sans-serif
-  font-size: 5rem
   font-weight: 300
   margin: 15px 0
+
+.Title
+  @extend %titleStyle
+  font-size: 5rem
+  margin-bottom: 5px
+
+.TitleChinese
+  @extend %titleStyle
+  font-size: 3rem
+  margin-top: 5px
 
 .Paragraph
   font-family: 'Calibri', sans-serif

@@ -1,8 +1,6 @@
 import React from 'react'
 import classes from './FooterTop.module.css'
 import Logo from "../../Logo/Logo";
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import {faFacebook, faInstagram, faLinkedin} from '@fortawesome/free-brands-svg-icons'
 import FooterSocialMediaBar from "./FooterSocialMediaBar/FooterSocialMediaBar";
 import FooterMenu from "./FooterMenu/FooterMenu";
 
@@ -16,8 +14,12 @@ const FooterTop = props => {
                 <Logo/>
                 <div className={classes.FirstColumnContent}>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, deserunt eveniet veniam.
-                        Ipsam, nam, voluptatum
+                        <i>Ucz się tak, jakbyś niczego jeszcze nie osiągnął i lękaj się, byś nie stracił tego, co już
+                            osiągnąłeś.</i>
+                    </p>
+                    <p>Konfucjusz</p>
+                    <p>
+                        学习好像您还没有取得任何成就，并害怕失去已经取得的成就。
                     </p>
                 </div>
                 <FooterSocialMediaBar/>
@@ -26,8 +28,8 @@ const FooterTop = props => {
             <div className={classes.SecondColumnContainer}>
                 <div className={classes.SecondColumnRow}>
                     <FooterMenu/>
-                    <div className={classes.Contact}>
-                    </div>
+                    {/*<div className={classes.Contact}>*/}
+                    {/*</div>*/}
                 </div>
             </div>
 
