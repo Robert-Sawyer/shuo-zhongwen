@@ -18,7 +18,7 @@
   flex-flow: column;
   align-items: center;
 }
-@media (min-width: 1000px) {
+@media (min-width: 1001px) {
   .NavMenu {
     flex-flow: row;
   }

@@ -27,19 +27,29 @@
 
 .Title
   @extend %titleStyle
-  font-size: 5rem
+  font-size: 3.2rem
   margin-bottom: 5px
+  @media (min-width: 820px)
+    font-size: 4rem
+  @media (min-width: 1001px)
+    font-size: 5rem
 
 .TitleChinese
   @extend %titleStyle
-  font-size: 3rem
+  font-size: 2rem
   margin-top: 5px
+  @media (min-width: 768px)
+    font-size: 3rem
 
 .Paragraph
   font-family: 'Calibri', sans-serif
   padding: 15px 25px
-  font-size: 1.5em
+  font-size: 1.2em
   color: #ffffff
+  margin-top: 5px
+  @media (min-width: 768px)
+    font-size: 1.5em
+    margin-top: 10px
 
 .SecondColumn
   flex: 63%
