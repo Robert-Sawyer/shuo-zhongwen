@@ -1,7 +1,7 @@
 import React from 'react'
-import Banner from "../UI/Banner/Banner";
-import CoursesBar from "../Courses/CoursesBar";
-import TestimonialsSection from "../Testimonials/TestimonialsSection";
+import Banner from "../../components/UI/Banner/Banner";
+import CoursesBar from "../../components/Courses/CoursesBar";
+import TestimonialsSection from "../../components/Testimonials/TestimonialsSection";
 import Aux from "../../hoc/AuxComponent/AuxComponent";
 
 const HomePageContent = props => {
