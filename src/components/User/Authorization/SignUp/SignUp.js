@@ -5,7 +5,7 @@ import Image from '../../../../assets/images/form1.jpg'
 const SignUp = props => {
 
     return (
-        <section className={classes.Container}>
+        <section className={classes.SignupContainer}>
             <div className={classes.ImgBox}>
                 <img src={Image} alt=""/>
             </div>

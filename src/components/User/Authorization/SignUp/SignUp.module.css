@@ -1,4 +1,4 @@
-.Container {
+.SignupContainer, .Container {
   margin-top: 85px;
   position: relative;
   width: 100%;
@@ -127,6 +127,10 @@
   background: #7a4e0f;
 }
 
+.Container {
+  flex-direction: row-reverse !important;
+}
+
 .Remember {
   font-weight: 400;
   font-size: 14px;
@@ -135,6 +139,10 @@
 }
 .Remember input {
   margin-right: 3px;
+}
+
+.SignupContainer {
+  flex-direction: row-reverse !important;
 }
 
 /*# sourceMappingURL=SignUp.module.css.map */
