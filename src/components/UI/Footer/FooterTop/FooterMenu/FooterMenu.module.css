@@ -8,7 +8,12 @@
   flex: 40%;
   max-width: 40%;
   margin: auto;
-  text-align: left;
+  text-align: center;
+}
+@media (min-width: 830px) {
+  .Menu {
+    text-align: left;
+  }
 }
 
 .Menu ul li {

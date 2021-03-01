@@ -1,12 +1,23 @@
 .Row {
   display: flex;
-  padding: 0 150px;
+  flex-direction: column;
+}
+@media (min-width: 830px) {
+  .Row {
+    flex-direction: row;
+    padding: 0 10%;
+  }
 }
 
 .FirstColumnContainer {
-  flex: 40%;
-  max-width: 40%;
-  padding: 0 15px;
+  padding: 0 10%;
+}
+@media (min-width: 830px) {
+  .FirstColumnContainer {
+    flex: 42%;
+    max-width: 42%;
+    padding: 0 15px;
+  }
 }
 
 .FirstColumnContent {
@@ -21,15 +32,23 @@
   text-align: right;
 }
 
-.SecondColumnContainer {
-  flex: 50%;
-  max-width: 50%;
-  margin-left: auto;
+@media (min-width: 830px) {
+  .SecondColumnContainer {
+    flex: 50%;
+    max-width: 50%;
+    margin-left: auto;
+  }
 }
 
 .SecondColumnRow {
   display: flex;
   flex-wrap: wrap;
+  margin-top: 30px;
+}
+@media (min-width: 830px) {
+  .SecondColumnRow {
+    margin-top: 0;
+  }
 }
 
 /*# sourceMappingURL=FooterTop.module.css.map */
