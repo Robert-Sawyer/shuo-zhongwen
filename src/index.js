@@ -8,9 +8,11 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import signupReducer from "./store/reducer/user/registration";
+import authReducer from "./store/reducer/user/login";
 
 const rootReducer = combineReducers({
-    signup: signupReducer
+    signup: signupReducer,
+    auth: authReducer
 })
 
 const store = createStore(rootReducer, applyMiddleware(thunkMiddleware))
