@@ -1,16 +1,26 @@
 import React from 'react';
 import {BrowserRouter} from "react-router-dom";
+import {Provider} from 'react-redux'
+import {createStore, combineReducers, applyMiddleware} from 'redux'
+import thunkMiddleware from 'redux-thunk'
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import signupReducer from "./store/reducer/user/registration";
+
+const rootReducer = combineReducers({
+    signup: signupReducer
+})
+
+const store = createStore(rootReducer, applyMiddleware(thunkMiddleware))
 
 ReactDOM.render(
-    <React.StrictMode>
+    <Provider store={store}>
         <BrowserRouter>
             <App/>
         </BrowserRouter>
-    </React.StrictMode>,
+    </Provider>,
     document.getElementById('root')
 );
 
