@@ -88,7 +88,7 @@
 .InputBox p {
   color: #607d8b;
 }
-.InputBox p a {
+.InputBox p .Link {
   color: #b77a24;
 }
 .InputBox span {
@@ -98,7 +98,7 @@
   font-weight: 300;
   color: #607d8b;
 }
-.InputBox input {
+.InputBox input, .InputBox button {
   width: 100%;
   padding: 10px 20px;
   outline: none;
@@ -110,11 +110,13 @@
   background: transparent;
   border-radius: 30px;
 }
-.InputBox input[type=text], .InputBox input[type=password] {
+.InputBox input[type=text], .InputBox input[type=password], .InputBox button[type=text], .InputBox button[type=password] {
   width: 83%;
 }
-.InputBox input[type=submit] {
+.InputBox input[type=submit], .InputBox button[type=submit] {
   width: fit-content;
+  display: flex;
+  align-items: center;
   background: #b77a24;
   color: #ffffff;
   outline: none;
@@ -123,8 +125,14 @@
   cursor: pointer;
   padding: 10px 40px;
 }
-.InputBox input[type=submit]:hover {
+.InputBox input[type=submit]:hover, .InputBox button[type=submit]:hover {
   background: #7a4e0f;
+}
+
+.Invalid {
+  color: #ff0000;
+  font-size: 12px;
+  margin-left: 10px;
 }
 
 .Container {
