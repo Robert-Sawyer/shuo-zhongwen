@@ -70,7 +70,7 @@
   margin-bottom: 20px
   & p
     color: #607d8b
-    & a
+    & .Link
       color: #b77a24
   & span
     display: inline-block
@@ -78,7 +78,7 @@
     margin-bottom: 5px
     font-weight: 300
     color: #607d8b
-  & input
+  & input, button
     width: 100%
     padding: 10px 20px
     outline: none
@@ -93,6 +93,8 @@
       width: 83%
     &[type='submit']
       width: fit-content
+      display: flex
+      align-items: center
       background: #b77a24
       color: #ffffff
       outline: none
@@ -103,6 +105,10 @@
       &:hover
         background: #7a4e0f
 
+%invalid
+  color: #ff0000
+  font-size: 12px
+  margin-left: 10px
 
 .Container
   @extend %container
@@ -128,4 +134,6 @@
   & input
     margin-right: 3px
 
+.Invalid
+  @extend %invalid
 
