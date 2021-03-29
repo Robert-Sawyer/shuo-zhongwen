@@ -14,14 +14,14 @@ const CoursesBar = props => {
     return (
         <div className={classes.CoursesBar}>
             <h1 className={classes.Title}>Zacznij naukę już dziś!</h1>
-            <h3 className={classes.Subtitle}>Dostępne kursy:</h3>
+            <h3 className={classes.Subtitle}><a href='/courses'>Dostępne kursy:</a></h3>
             <div className={classes.Row}>
-                <CourseItem image={Img1}/>
-                <CourseItem image={Img2}/>
-                <CourseItem image={Img3}/>
-                <CourseItem image={Img4}/>
-                <CourseItem image={Img5}/>
-                <CourseItem image={Img6}/>
+                <CourseItem image={Img1} link='/courses/hsk1'/>
+                <CourseItem image={Img2} link='/courses/hsk2'/>
+                <CourseItem image={Img3} link='/courses/hsk3'/>
+                <CourseItem image={Img4} link='/courses/hsk4'/>
+                <CourseItem image={Img5} link='/courses/hsk5'/>
+                <CourseItem image={Img6} link='/courses/hsk6'/>
             </div>
         </div>
     )

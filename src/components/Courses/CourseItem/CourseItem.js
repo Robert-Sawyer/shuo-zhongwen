@@ -5,7 +5,7 @@ const CourseItem = props => {
 
     return (
         <div className={classes.Container}>
-            <a className={classes.Link} href="#">
+            <a className={classes.Link} href={props.link}>
                 <img className={classes.Image} src={props.image} alt=''/>
             </a>
         </div>

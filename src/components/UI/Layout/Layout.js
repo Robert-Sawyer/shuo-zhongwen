@@ -19,7 +19,7 @@ const Layout = props => {
         <Aux>
             <Header drawerToggleClicked={sideDrawerToggleHandler}/>
             <SideDrawer open={visibleSideDrawer} closed={sideDrawerClosedHandler}/>
-            <main>{props.children}</main>
+            <main style={{marginTop: '82px'}}>{props.children}</main>
             <Footer/>
         </Aux>
     )

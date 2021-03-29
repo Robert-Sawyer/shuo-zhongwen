@@ -12,10 +12,14 @@
   text-transform: uppercase;
 }
 
-.Subtitle {
+.Subtitle a {
   color: #b77a24;
   margin: 12px 0;
   font-size: 1.5rem;
+  text-decoration: none;
+}
+.Subtitle a:hover {
+  color: #7a4e0f;
 }
 
 .Row {

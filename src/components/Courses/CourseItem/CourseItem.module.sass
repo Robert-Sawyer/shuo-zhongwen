@@ -2,6 +2,7 @@
   width: 170px
   height: 90px
 
+
 .Container
   @extend %commonDesktopSizes
   margin: 0 0.75rem
@@ -19,6 +20,9 @@
 
 .Image
   @extend %commonDesktopSizes
+  &:hover
+    transition: 0.4s linear
+    transform: scale(1.2)
   @media (max-width: 1150px)
     width: 240px
     height: 130px

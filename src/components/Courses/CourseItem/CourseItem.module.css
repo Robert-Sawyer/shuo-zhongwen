@@ -24,6 +24,10 @@
   }
 }
 
+.Image:hover {
+  transition: 0.4s linear;
+  transform: scale(1.2);
+}
 @media (max-width: 1150px) {
   .Image {
     width: 240px;

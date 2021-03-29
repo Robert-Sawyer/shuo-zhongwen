@@ -2,7 +2,6 @@
   height: calc(100vh - 196px);
   width: 100%;
   min-height: 490px;
-  margin-top: 82px;
   display: flex;
   flex-direction: column-reverse;
 }
