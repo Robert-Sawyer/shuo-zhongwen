@@ -1,18 +1,44 @@
 .Container
-  width: 100px
-  //background-image:
+  width: 600px
+  height: 450px
+  margin: 20px
+  border: 1px solid black
+
+.TopImageContainer
+  width: 600px
+  height: 75%
+  & img
+    width: 100%
+    height: 100%
 
 .Image
-  width: 100px
-  height: 50px
+  width: 150px
+  height: 80px
+  position: relative
+  top: 0
+  left: 0
+  & img
+    width: 100%
+    height: 100%
 
 .DetailsBox
   width: 100%
-  height: 30%
+  height: 25%
+  padding: 20px 30px
+  box-sizing: border-box
 
 .InfoLine
   display: flex
   justify-content: space-between
   align-items: center
+  margin-bottom: 20px
+  & strong
+    color: #7a4e0f
+    font-weight: bold
 
-.LinkContainer
+.LinkContainer a
+  text-decoration: none
+  padding: 10px 20px
+  background-color: #b77a24
+  color: #ffffff
+  border-radius: 10px

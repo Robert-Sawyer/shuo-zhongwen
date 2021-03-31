@@ -5,13 +5,18 @@ const CourseInfoItem = props => {
 
     return (
         <div className={classes.Container}>
-            <div className={classes.Image}>
-                <img alt='' src={props.image}/>
+            <div className={classes.TopImageContainer}>
+                <div className={classes.Image}>
+                    <img alt='' src={props.image}/>
+                </div>
+                <div>
+                    <img alt='' src={props.background}/>
+                </div>
             </div>
             <div className={classes.DetailsBox}>
                 <div className={classes.InfoLine}>
-                    <span>Czas trwania: {props.length}</span>
-                    <span>Cena: {props.price}</span>
+                    <span>Czas trwania: {props.length} min</span>
+                    <span>Cena: <strong>{props.price}</strong></span>
                 </div>
                 <div className={classes.LinkContainer}>
                     <a href='#'>SZCZEGÓŁY</a>
