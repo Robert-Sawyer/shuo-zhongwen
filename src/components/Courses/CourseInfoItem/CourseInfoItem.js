@@ -8,8 +8,6 @@ const CourseInfoItem = props => {
             <div className={classes.TopImageContainer}>
                 <div className={classes.Image}>
                     <img alt='' src={props.image}/>
-                </div>
-                <div>
                     <img alt='' src={props.background}/>
                 </div>
             </div>
