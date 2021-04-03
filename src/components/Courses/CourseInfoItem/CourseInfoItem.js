@@ -13,7 +13,7 @@ const CourseInfoItem = props => {
             </div>
             <div className={classes.DetailsBox}>
                 <div className={classes.InfoLine}>
-                    <span>Czas trwania: {props.length} min</span>
+                    <span>Czas trwania: <strong>{props.length} min</strong></span>
                     <span>Cena: <strong>{props.price}</strong></span>
                 </div>
                 <div className={classes.LinkContainer}>
