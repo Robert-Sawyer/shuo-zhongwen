@@ -4,11 +4,11 @@
 }
 
 .Container {
-  margin: 0 0.75rem;
+  margin: 15px 0.75rem;
 }
 @media (max-width: 1150px) {
   .Container {
-    margin: 15px 0;
+    margin: 15px;
     width: 240px;
     height: 130px;
   }

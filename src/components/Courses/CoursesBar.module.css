@@ -12,6 +12,9 @@
   text-transform: uppercase;
 }
 
+.Subtitle {
+  margin-bottom: 0;
+}
 .Subtitle a {
   color: #b77a24;
   margin: 12px 0;
@@ -24,11 +27,12 @@
 
 .Row {
   display: flex;
+  flex-wrap: wrap;
   padding: 25px;
   justify-content: center;
   align-items: center;
 }
-@media (max-width: 1150px) {
+@media (max-width: 650px) {
   .Row {
     flex-direction: column;
   }

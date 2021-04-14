@@ -10,18 +10,21 @@
   font-size: 2.3em
   text-transform: uppercase
 
-.Subtitle a
-  color: #b77a24
-  margin: 12px 0
-  font-size: 1.5rem
-  text-decoration: none
-  &:hover
-    color: #7a4e0f
+.Subtitle
+  margin-bottom: 0
+  & a
+    color: #b77a24
+    margin: 12px 0
+    font-size: 1.5rem
+    text-decoration: none
+    &:hover
+      color: #7a4e0f
 
 .Row
   display: flex
+  flex-wrap: wrap
   padding: 25px
   justify-content: center
   align-items: center
-  @media (max-width: 1150px)
+  @media (max-width: 650px)
     flex-direction: column

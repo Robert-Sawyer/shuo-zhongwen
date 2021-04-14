@@ -1,20 +1,20 @@
 import React from 'react'
 import classes from './CourseInfoItem.module.css'
 
-const CourseInfoItem = props => {
+const CourseInfoItem = ({image, background, hoursMin, hoursMax, price}) => {
 
     return (
         <div className={classes.Container}>
             <div className={classes.TopImageContainer}>
                 <div className={classes.Image}>
-                    <img alt='' src={props.image}/>
-                    <img alt='' src={props.background}/>
+                    <img alt='' src={image}/>
+                    <img alt='' src={background}/>
                 </div>
             </div>
             <div className={classes.DetailsBox}>
                 <div className={classes.InfoLine}>
-                    <span>Czas trwania: <strong>{props.length} min</strong></span>
-                    <span>Cena: <strong>{props.price}</strong></span>
+                    <span>Szacunkowy czas nauki: <strong>{hoursMin} - {hoursMax} godz.</strong></span>
+                    <span>Cena: <strong>{price}</strong></span>
                 </div>
                 <div className={classes.LinkContainer}>
                     <a href='#'>SZCZEGÓŁY</a>
