@@ -1,0 +1,20 @@
+.Page {
+  padding: 30px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Container {
+  display: flex;
+}
+
+.ImgContainer {
+  flex: 70%;
+}
+
+.InfoContainer {
+  flex: 30%;
+}
+
+/*# sourceMappingURL=SingleCourseMainPage.module.css.map */

@@ -9,6 +9,7 @@ import CoursesPageContent from "./pages/Courses/CoursesPageContent";
 import AboutPageContent from "./pages/About/AboutPageContent";
 import BlogPageContent from "./pages/Blog/BlogPageContent";
 import ContactPageContent from "./pages/Contact/ContactPageContent";
+import SingleCourseMainPage from "./pages/Courses/SingleCourseMainPage/SingleCourseMainPage";
 
 const App = props => {
 
@@ -19,6 +20,7 @@ const App = props => {
                     <Route path='/login' component={Login}/>
                     <Route path='/signup' component={SignUp}/>
                     <Route path='/courses' component={CoursesPageContent}/>
+                    <Route path='/hsk1' component={SingleCourseMainPage}/>
                     <Route path='/about' component={AboutPageContent}/>
                     <Route path='/blog' component={BlogPageContent}/>
                     <Route path='/contact' component={ContactPageContent}/>

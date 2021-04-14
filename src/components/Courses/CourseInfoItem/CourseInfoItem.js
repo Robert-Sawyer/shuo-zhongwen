@@ -1,7 +1,9 @@
 import React from 'react'
+import {Link, Switch, Route} from "react-router-dom";
 import classes from './CourseInfoItem.module.css'
+import SingleCourseMainPage from "../../../pages/Courses/SingleCourseMainPage/SingleCourseMainPage";
 
-const CourseInfoItem = ({image, background, hoursMin, hoursMax, price}) => {
+const CourseInfoItem = ({image, background, hoursMin, hoursMax, price, link}) => {
 
     return (
         <div className={classes.Container}>
@@ -16,8 +18,13 @@ const CourseInfoItem = ({image, background, hoursMin, hoursMax, price}) => {
                     <span>Szacunkowy czas nauki: <strong>{hoursMin} - {hoursMax} godz.</strong></span>
                     <span>Cena: <strong>{price}</strong></span>
                 </div>
-                <div className={classes.LinkContainer}>
-                    <a href='#'>SZCZEGÓŁY</a>
+                <div>
+                    {/*<Link class={classes.Link} to={"/courses/" + link}>SZCZEGÓŁY</Link>*/}
+                    <Link class={classes.Link} to={link}>SZCZEGÓŁY</Link>
+
+                    {/*<Switch>*/}
+                    {/*    <Route exact path={"courses/:" + link} component={SingleCourseMainPage}/>*/}
+                    {/*</Switch>*/}
                 </div>
             </div>
         </div>

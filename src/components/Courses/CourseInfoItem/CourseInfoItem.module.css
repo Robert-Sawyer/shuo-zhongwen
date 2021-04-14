@@ -49,7 +49,7 @@
   font-weight: bold;
 }
 
-.LinkContainer a {
+.Link {
   text-decoration: none;
   padding: 10px 20px;
   background-color: #b77a24;
@@ -59,7 +59,7 @@
   font-weight: 600;
   letter-spacing: 0.5px;
 }
-.LinkContainer a:hover {
+.Link:hover {
   background-color: #7a4e0f;
 }
 
