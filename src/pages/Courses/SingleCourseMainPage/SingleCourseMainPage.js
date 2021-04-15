@@ -3,6 +3,7 @@ import classes from './SingleCourseMainPage.module.css'
 import TopBanner from "../../../components/UI/TopBanner/TopBanner";
 import Background1 from '../../../assets/images/hsk1image.jpg'
 import {Link} from "react-router-dom";
+import Button from "../../../components/UI/Button/Button";
 
 const SingleCourseMainPage = props => {
 
@@ -22,7 +23,7 @@ const SingleCourseMainPage = props => {
                         <p>Ile nowych słów poznam? <strong>150</strong></p>
                         <p>Lista tematów -> <a href='#'>pokaż</a></p>
                         <div className={classes.ButtonContainer}>
-                            <Link class={classes.Link} to='#'>ZACZYNAM</Link>
+                            <Button link='#'>ZACZYNAM</Button>
                         </div>
                     </div>
                 </div>

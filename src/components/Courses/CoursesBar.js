@@ -16,7 +16,7 @@ const CoursesBar = props => {
             <h1 className={classes.Title}>Zacznij naukę już dziś!</h1>
             <h3 className={classes.Subtitle}><a href='/courses'>Dostępne kursy:</a></h3>
             <div className={classes.Row}>
-                <CourseItem image={Img1} link='/courses/hsk1'/>
+                <CourseItem image={Img1} link='/hsk1'/>
                 <CourseItem image={Img2} link='/courses/hsk2'/>
                 <CourseItem image={Img3} link='/courses/hsk3'/>
                 <CourseItem image={Img4} link='/courses/hsk4'/>

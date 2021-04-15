@@ -45,24 +45,10 @@
 }
 .InfoContainer p a {
   color: #b77a24;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 .InfoContainer p a:hover {
   color: #7a4e0f;
-}
-
-.Link {
-  text-decoration: none;
-  padding: 10px 20px;
-  background-color: #b77a24;
-  color: #ffffff;
-  border-radius: 10px;
-  transition: 0.3s linear;
-  font-weight: 600;
-  letter-spacing: 0.5px;
-}
-.Link:hover {
-  background-color: #7a4e0f;
 }
 
 .ButtonContainer {

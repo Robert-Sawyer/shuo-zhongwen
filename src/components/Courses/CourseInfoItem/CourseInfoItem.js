@@ -2,6 +2,7 @@ import React from 'react'
 import {Link, Switch, Route} from "react-router-dom";
 import classes from './CourseInfoItem.module.css'
 import SingleCourseMainPage from "../../../pages/Courses/SingleCourseMainPage/SingleCourseMainPage";
+import Button from "../../UI/Button/Button";
 
 const CourseInfoItem = ({image, background, hoursMin, hoursMax, price, link, bannerTitle}) => {
 
@@ -20,7 +21,7 @@ const CourseInfoItem = ({image, background, hoursMin, hoursMax, price, link, ban
                 </div>
                 <div>
                     {/*<Link class={classes.Link} to={"/courses/" + link}>SZCZEGÓŁY</Link>*/}
-                    <Link class={classes.Link} to={link}>SZCZEGÓŁY</Link>
+                    <Button link={link}>SZCZEGÓŁY</Button>
                     {/*<Route path={"courses/" + link}>*/}
                     {/*    <SingleCourseMainPage title={bannerTitle}/>*/}
                     {/*</Route>*/}
