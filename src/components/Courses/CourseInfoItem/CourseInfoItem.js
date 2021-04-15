@@ -3,7 +3,7 @@ import {Link, Switch, Route} from "react-router-dom";
 import classes from './CourseInfoItem.module.css'
 import SingleCourseMainPage from "../../../pages/Courses/SingleCourseMainPage/SingleCourseMainPage";
 
-const CourseInfoItem = ({image, background, hoursMin, hoursMax, price, link}) => {
+const CourseInfoItem = ({image, background, hoursMin, hoursMax, price, link, bannerTitle}) => {
 
     return (
         <div className={classes.Container}>
@@ -21,10 +21,9 @@ const CourseInfoItem = ({image, background, hoursMin, hoursMax, price, link}) =>
                 <div>
                     {/*<Link class={classes.Link} to={"/courses/" + link}>SZCZEGÓŁY</Link>*/}
                     <Link class={classes.Link} to={link}>SZCZEGÓŁY</Link>
-
-                    {/*<Switch>*/}
-                    {/*    <Route exact path={"courses/:" + link} component={SingleCourseMainPage}/>*/}
-                    {/*</Switch>*/}
+                    {/*<Route path={"courses/" + link}>*/}
+                    {/*    <SingleCourseMainPage title={bannerTitle}/>*/}
+                    {/*</Route>*/}
                 </div>
             </div>
         </div>
