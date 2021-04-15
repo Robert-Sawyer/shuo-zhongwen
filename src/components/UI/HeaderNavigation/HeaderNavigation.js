@@ -13,7 +13,7 @@ const HeaderNavigation = props => {
                 <li className={classes.NavMenuItem}><a href='/blog'>Blog</a></li>
                 <li className={classes.NavMenuItem}><a href='/contact'>Kontakt</a></li>
                 <li className={classes.LogIn}><a href="/login">Logowanie</a></li>
-                <li className={classes.SignUp}><Button link="/login">Rejestracja</Button></li>
+                <li className={classes.SignUp}><Button link="/signup">Rejestracja</Button></li>
             </ul>
         </nav>
     )
